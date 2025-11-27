@@ -34,8 +34,7 @@ ai-cloud-security-platform
 ┣ main.js → Electron desktop runner
 ┗ dist/ → Final exe installer/build output
 
-yaml
-Copy code
+
 
 ---
 
@@ -82,8 +81,7 @@ This architecture does not exist as a single combined solution in current CSPM t
 cd backend
 uvicorn app.main:app --reload
 
-shell
-Copy code
+
 
 ### Frontend
 
@@ -91,15 +89,12 @@ cd frontend
 npm install
 npm run dev
 
-kotlin
-Copy code
+
 
 Access interface at:
 
 http://localhost:3000
 
-yaml
-Copy code
 
 ---
 
@@ -109,23 +104,11 @@ cd ai-cloud-security-platform
 npm install
 npm run build
 
-scss
-Copy code
 
 Installer and exe will be generated inside:
 
 /dist/
 
-yaml
-Copy code
-
----
-
-## Screenshots
-
-(Add UI screenshots here)
-
----
 
 ## License
 
