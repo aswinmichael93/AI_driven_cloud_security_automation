@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-[#020818] text-slate-100;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
+    "Segoe UI", sans-serif;
+}
+
+/* background + neon helpers */
+.bg-cspm-bg {
+  background: radial-gradient(circle at top, #04152d 0, #020818 45%, #020814 100%);
+}
+
+.cspm-card {
+  @apply rounded-3xl bg-gradient-to-br from-[#061729]/90 to-[#050814]/95 border border-cyan-400/10 shadow-[0_0_40px_rgba(0,255,255,0.15)];
+}
+
+.cspm-chip {
+  @apply inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold;
+}
